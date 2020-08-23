@@ -19,21 +19,21 @@ $("#bt1").click(function (){
 });
 
 
-$(".nav-item:nth-child(2)").click(function () {
+$(".scroll:nth-child(2)").click(function () {
     $('html,body').animate({
         scrollTop: $("#prestations").offset().top
     },
         'slow');
 });
 
-$(".nav-item:nth-child(4)").click(function () {
+$(".scroll:nth-child(4)").click(function () {
     $('html,body').animate({
         scrollTop: $("#propos").offset().top
     },
         'slow');
 });
 
-$(".nav-item:nth-child(5)").click(function () {
+$(".scroll:nth-child(5)").click(function () {
     $('html,body').animate({
         scrollTop: $("#contacts").offset().top
     },

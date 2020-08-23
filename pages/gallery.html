@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garage Cheneaux | Le Cateau-Cambrésis</title>
+
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../img/logotest.png">
+
+
+    <!-- CSS de Boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo&display=swap" rel="stylesheet">
+
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- Script jQuerry -->
+    <script src="http://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+
+    <!-- GreenSock TweenMax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+
+
+    <!-- Ekko CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+</head>
+<body>
+
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-md navbar-dark bd-navbar fixed-top" id="main-nav">
+        <div class="container" id="animation-greenSock">
+            <a href="../index.html" class="nav-link">
+                <img src="../img/logo@0,80x.png" alt="Logo-Peugeot" class="navbar-brand img-fluid">
+                <a href="#" class="nav-link disabled text-exo text-white">MOTION & EMOTION</a>
+            </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav bd-navbar-nav ml-auto">
+                    <li class="nav-item mr-1">
+                        <a href="../index.html" class="nav-link active" >ACCUEIL</a>
+                    </li>
+                    <li class="nav-item mr-1">
+                        <a href="../index.html#prestations" class="nav-link active" >NOS SERVICES</a>
+                    </li>
+                    <li class="nav-item mr-1">
+                        <a href="#galerie" class="nav-link active">GALERIE</a>
+                    </li>
+                    <li class="nav-item mr-1">
+                        <a href="../index.html#propos" class="nav-link active" >A PROPOS</a>
+                    </li>
+                    <li class="nav-item mr-1">
+                        <a href="../index.html#contacts" class="nav-link active" >CONTACTS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Gallerie -->
+
+<section id="gallery"> 
+    <div class="container">
+        <h3 class="text-center">NOTRE GALERIE</h3>
+        <h3 class="text-center p-2">LA GALERIE DU GARAGE </h3>
+
+        <div class="row justify-content-center p-2">
+            <div class="col-md-10">
+                <div class="row mb-3">
+                    <a href="../img/galerietest1.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-title="Voiture" class="col-sm-4"><img src="../img/galerietest1icon.jpg" alt="img 1" class="img-fluid"></a>
+                    <a href="../img/galerietest2.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-title="Voiture 2" class="col-sm-4"><img src="../img/galerietest2icon.jpg" alt="img 2" class="img-fluid"></a>
+                    <a href="../img/galerietest3.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-title="Voiture 3" class="col-sm-4"><img src="../img/galerietest3icon.jpg" alt="img 3" class="img-fluid"></a>
+                </div>
+                <div class="row mb-3">
+                    <a href="../img/galerietest4.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-title="Voiture 4" class="col-sm-4"><img src="../img/galerietest4icon.jpg" alt="img 4" class="img-fluid"></a>
+                    <a href="../img/galerietest5.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-title="Voiture 5" class="col-sm-4"><img src="../img/galerietest5icon.jpg" alt="img 5" class="img-fluid"></a>
+                    <a href="../img/galerietestbis.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-title="Mr Robot :)" class="col-sm-4"><img src="../img/galerietestbis1.jpg" alt="img 6" class="img-fluid"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Ekko -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+
+
+    <!-- Javascrip de Bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+    <!-- Ekko LightBox -->
+    <script>
+        $(document).on('click', '[data-toggle="lightbox"]', function(event){
+            event.preventDefault();
+            $(this).ekkoLightbox({
+                alwaysShowClose: true})    
+        })
+    </script>
+
+
+    <!-- JS -->
+    <script src="../JS/app.js"></script>
+    <script src="../JS/greenSock.js"></script>
+    
+</body>
+</html>

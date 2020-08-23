@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garage Cheneaux | Le Cateau-Cambrésis</title>
+
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/logotest.png">
+
+
+    <!-- CSS de Boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- jQuerry -->
+    <script src="http://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/2e5f7cb15a.js" crossorigin="anonymous"></script>
+
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo&display=swap" rel="stylesheet"> 
+
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- GreenSock TweenMax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+
+
+</head>
+<body>
+
+
+    <!-- Navbar -->
+
+
+    <nav class="navbar navbar-expand-md navbar-dark bd-navbar fixed-top" id="main-nav">
+        <div class="container" id="animation-greenSock">
+            <a href="index.html" class="nav-link">
+                <img src="img/logo@0,80x.png" alt="Logo-Peugeot" class="navbar-brand img-fluid">
+                <a href="#" class="nav-link disabled text-exo text-white">MOTION & EMOTION</a>
+            </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav bd-navbar-nav ml-auto">
+                    <li class="nav-item mr-1">
+                        <a href="index.html" class="nav-link active" >ACCUEIL</a>
+                    </li>
+                    <li class="nav-item mr-1">
+                        <a href="#prestations" class="nav-link active" >NOS SERVICES</a>
+                    </li>
+                    <li class="nav-item mr-1">
+                        <a href="./pages/gallery.html#gallery" class="nav-link active">GALERIE</a>
+                    </li>
+                    <li class="nav-item mr-1">
+                        <a href="#propos" class="nav-link active" >A PROPOS</a>
+                    </li>
+                    <li class="nav-item mr-1">
+                        <a href="#contacts" class="nav-link active" >CONTACTS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header, Acceuil Grande Image -->
+
+
+    <header class="text-center" id="top">
+        <div class="text-intro">
+            <div class="preTxt text-white" id="txt1">Le savoir-faire des professionnels <br> à Le Cateau-Cambrésis <br> </div>
+            <h1 class="text-white" id="flag">
+                Garage Cheneaux <br> <img src="img/drapeau.png" class="img-fluid mb-5 flag" alt="drapeau">
+            </h1>
+            
+            <a href="#prestations" class="btn btn-decouvrir mt-5 active" role="button" aria-pressed="true" id="bt1">Nous Découvrir</a>
+            
+        </div>
+
+    </header>
+
+    <!-- Section Prestations -->
+
+
+    <section id="prestations" class="my-5 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="info-header">
+                        <h2 class="pb-5">NOS SERVICES</h2>
+                        <p class="lead pb-5">
+                            Notre équipe agréée et forte d'expérience [...] Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus provident aspernatur deserunt quae eligendi voluptatum sit vero, aut molestiae, nostrum, recusandae dolor quo praesentium consectetur totam voluptas perferendis accusantium est!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border-primary">
+                        <div class="card-body">
+                            <i class="fas fa-car mt-3"></i>
+                            <h4 style="text-transform: uppercase;">Véhicules</h4>
+                            <h5 class="text-muted mb-3">Neufs & d'occasion</h5>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem error tempora enim quas magni, unde odit necessitatibus ipsum exercitationem repellat pariatur deleniti voluptatibus!</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border-danger">
+                        <div class="card-body">
+                            <i class="fas fa-car-crash mb-3"></i>
+                            <h4>CARROSSERIE</h4>
+                            <h5 class="text-muted mb-3">Lorem</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos doloremque ipsa quo officia soluta voluptatem sint laboriosam cupiditate consequatur similique repellendus, nulla mollitia.</p>
+                        </div>
+                    </div>
+                </div>
+                 
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border-success">
+                        <div class="card-body">
+                            <i class="fas fa-toolbox mb-3"></i>
+                            <h4>ENTRETIEN</h4>
+                            <h5 class="text-muted mb-3">Lorem</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos doloremque ipsa quo officia soluta voluptatem sint laboriosam cupiditate consequatur similique repellendus, nulla mollitia.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border-warning">
+                        <div class="card-body">
+                            <i class="fas fa-tools mb-3"></i>
+                            <h4 style="text-transform: uppercase;">Réparation</h4>
+                            <h5 class="text-muted mb-3">Lorem</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos doloremque ipsa quo officia soluta voluptatem sint laboriosam cupiditate consequatur similique repellendus, nulla mollitia.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <section class="py-5 mt-5 mb-5" id="img-float">
+            <div class="container py-5">
+                <h2 class="pb-3">Envie d'essayer l'un de nos véhicules ?</h2>
+                <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit rem laborum quas, sapiente ipsa facere optio cupiditate, minus possimus nihil doloribus facilis incidunt sed repellendus!</p>
+                <a href="https://agents.peugeot.fr/le-cateau" target="_blank" class="btn btn-info mt-4">Plus d'informations</a>
+            </div>
+        </section>
+
+    </section>
+
+    <!-- A Propos -->
+
+
+    <section id="propos" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div id="txtPropos" class="col-md-6 align-self-center pb-5">
+                    <h3>NOTRE ENTREPRISE</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat tempore voluptatum ratione repellendus, distinctio assumenda eum sunt id corrupti nesciunt quam delectus sequi? Culpa voluptates nostrum, ut fugit non impedit?</p>
+                </div>
+                <div id="carousel-propos" class=" carousel slide col-md-6" data-ride="carousel" data-interval="6000">
+                    <ol class="carousel-indicators">
+                        <li class="active" data-target="#carousel-propos" data-slide-to="0"></li>
+                        <li data-target="#carousel-propos" data-slide-to="1"></li>
+                        <li data-target="#carousel-propos" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/img.jpg" alt="tableau de bord" class="d-block img-fluid">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/img2.jpg" alt="peugeot 208" class="d-block img-fluid">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/img3.jpg" alt="tableau de bord" class="d-block img-fluid">
+                        </div>
+                    </div>
+                    <a href="#carousel-propos" class="carousel-control-prev" role="button" data-slide="prev" >
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Précédent</span>
+                    </a>
+                    <a href="#carousel-propos" class="carousel-control-next" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Suivant</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts -->
+
+    <section id="contacts" class="text-white">
+        <div class="container">
+            <div class="row">
+                <div class="clock col-lg col-md-6 text-center my-auto">
+                    <p><i class="fas fa-door-open mt-3"></i></p>
+                    <h6 class="h6-contact mb-3">OUVERT 6J/7</h6>
+                    <p><i class="far fa-clock"></i></p>
+                    <h6>DU LUNDI AU VENDREDI :</h6>
+                    <p>DE 8H00 - 12H00 | 14H - 18H <br> ET LE SAMEDI DE 8H00 -12H00</p>
+                </div>
+                <div class="contact col-lg col-md-6 text-center my-auto">
+                    <div class="adresse mt-3">
+                        <a href="https://www.google.fr/maps/place/GARAGE+CHENEAUX+-+PEUGEOT/@50.1058404,3.5316267,17z/data=!3m1!4b1!4m5!3m4!1s0x47c28539ae4bfee9:0x685a27aa5692306b!8m2!3d50.1058404!4d3.5338154" target="_blank" rel="noopener noreferrer"><i class="fas fa-map-marked-alt"></i></a>
+                    </div>
+                    <p class="mt-4 mb-3">17 Fbg de Cambrai, 59360 Le Cateau-Cambrésis</p>
+                    <p><i class="phone fas fa-phone-alt mt-3 mb-3"></i>&nbsp; 03.27.84.05.41</p>
+                    <a href="https://www.facebook.com/GarageCheneaux/" target="_blank" rel="noopener noreferrer"><i class="reseaux fab fa-facebook mb-4"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+
+    <footer id="main-footer" class="text-center p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Mentions légales &copy;
+                        <span id="year"></span> Garage Cheneaux | Tous droits réservés
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Popper.js -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+        <!-- version 2.x est OK -->
+        <!-- <script src="https://unpkg.com/@popperjs/core@2"></script> -->
+
+
+    <!-- Javascrip de Bootstrap -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+    <!-- Carousel Stop Pause -->
+    <script>
+        $('.carousel').carousel({
+            pause: "null"
+        })
+    </script>
+
+
+    <!-- Year -->
+    <script>
+        $('#year').text(new Date().getFullYear());
+    </script>
+
+
+    <!-- JS -->
+    <script src="JS/app.js"></script>
+    <script src="JS/greenSock.js"></script>
+    
+
+
+</body>
+</html>

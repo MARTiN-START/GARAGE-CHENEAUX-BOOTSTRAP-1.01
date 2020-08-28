@@ -18,6 +18,12 @@ $("#bt1").click(function (){
         'slow');
 });
 
+$(".scroll:nth-child(1)").click(function () {
+    $('html,body').animate({
+        scrollTop: $("#top").offset().top
+    },
+        'slow');
+});
 
 $(".scroll:nth-child(2)").click(function () {
     $('html,body').animate({
